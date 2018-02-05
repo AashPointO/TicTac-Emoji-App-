@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		484D2508202922CF006F8D48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484D2507202922CF006F8D48 /* AppDelegate.swift */; };
+		484D250A202922CF006F8D48 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 484D2509202922CF006F8D48 /* GameScene.sks */; };
+		484D250C202922CF006F8D48 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 484D250B202922CF006F8D48 /* Actions.sks */; };
+		484D250E202922CF006F8D48 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484D250D202922CF006F8D48 /* GameScene.swift */; };
+		484D2510202922CF006F8D48 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484D250F202922CF006F8D48 /* GameViewController.swift */; };
+		484D2513202922CF006F8D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484D2511202922CF006F8D48 /* Main.storyboard */; };
+		484D2515202922CF006F8D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484D2514202922CF006F8D48 /* Assets.xcassets */; };
+		484D2518202922CF006F8D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484D2516202922CF006F8D48 /* LaunchScreen.storyboard */; };
+		484D2523202922CF006F8D48 /* TicTac_EmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484D2522202922CF006F8D48 /* TicTac_EmojiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		484D251F202922CF006F8D48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 484D24FC202922CF006F8D48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 484D2503202922CF006F8D48;
+			remoteInfo = "TicTac-Emoji";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		484D2504202922CF006F8D48 /* TicTac-Emoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TicTac-Emoji.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		484D2507202922CF006F8D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		484D2509202922CF006F8D48 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		484D250B202922CF006F8D48 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		484D250D202922CF006F8D48 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		484D250F202922CF006F8D48 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		484D2512202922CF006F8D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		484D2514202922CF006F8D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		484D2517202922CF006F8D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		484D2519202922CF006F8D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484D251E202922CF006F8D48 /* TicTac-EmojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TicTac-EmojiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		484D2522202922CF006F8D48 /* TicTac_EmojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTac_EmojiTests.swift; sourceTree = "<group>"; };
+		484D2524202922CF006F8D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		484D2501202922CF006F8D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484D251B202922CF006F8D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484D24FB202922CF006F8D48 = {
+			isa = PBXGroup;
+			children = (
+				484D2506202922CF006F8D48 /* TicTac-Emoji */,
+				484D2521202922CF006F8D48 /* TicTac-EmojiTests */,
+				484D2505202922CF006F8D48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		484D2505202922CF006F8D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				484D2504202922CF006F8D48 /* TicTac-Emoji.app */,
+				484D251E202922CF006F8D48 /* TicTac-EmojiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		484D2506202922CF006F8D48 /* TicTac-Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				484D2507202922CF006F8D48 /* AppDelegate.swift */,
+				484D2509202922CF006F8D48 /* GameScene.sks */,
+				484D250B202922CF006F8D48 /* Actions.sks */,
+				484D250D202922CF006F8D48 /* GameScene.swift */,
+				484D250F202922CF006F8D48 /* GameViewController.swift */,
+				484D2511202922CF006F8D48 /* Main.storyboard */,
+				484D2514202922CF006F8D48 /* Assets.xcassets */,
+				484D2516202922CF006F8D48 /* LaunchScreen.storyboard */,
+				484D2519202922CF006F8D48 /* Info.plist */,
+			);
+			path = "TicTac-Emoji";
+			sourceTree = "<group>";
+		};
+		484D2521202922CF006F8D48 /* TicTac-EmojiTests */ = {
+			isa = PBXGroup;
+			children = (
+				484D2522202922CF006F8D48 /* TicTac_EmojiTests.swift */,
+				484D2524202922CF006F8D48 /* Info.plist */,
+			);
+			path = "TicTac-EmojiTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		484D2503202922CF006F8D48 /* TicTac-Emoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484D2527202922CF006F8D48 /* Build configuration list for PBXNativeTarget "TicTac-Emoji" */;
+			buildPhases = (
+				484D2500202922CF006F8D48 /* Sources */,
+				484D2501202922CF006F8D48 /* Frameworks */,
+				484D2502202922CF006F8D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TicTac-Emoji";
+			productName = "TicTac-Emoji";
+			productReference = 484D2504202922CF006F8D48 /* TicTac-Emoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		484D251D202922CF006F8D48 /* TicTac-EmojiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484D252A202922CF006F8D48 /* Build configuration list for PBXNativeTarget "TicTac-EmojiTests" */;
+			buildPhases = (
+				484D251A202922CF006F8D48 /* Sources */,
+				484D251B202922CF006F8D48 /* Frameworks */,
+				484D251C202922CF006F8D48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				484D2520202922CF006F8D48 /* PBXTargetDependency */,
+			);
+			name = "TicTac-EmojiTests";
+			productName = "TicTac-EmojiTests";
+			productReference = 484D251E202922CF006F8D48 /* TicTac-EmojiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		484D24FC202922CF006F8D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Aashir Farooqi";
+				TargetAttributes = {
+					484D2503202922CF006F8D48 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					484D251D202922CF006F8D48 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 484D2503202922CF006F8D48;
+					};
+				};
+			};
+			buildConfigurationList = 484D24FF202922CF006F8D48 /* Build configuration list for PBXProject "TicTac-Emoji" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 484D24FB202922CF006F8D48;
+			productRefGroup = 484D2505202922CF006F8D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				484D2503202922CF006F8D48 /* TicTac-Emoji */,
+				484D251D202922CF006F8D48 /* TicTac-EmojiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		484D2502202922CF006F8D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484D2513202922CF006F8D48 /* Main.storyboard in Resources */,
+				484D250A202922CF006F8D48 /* GameScene.sks in Resources */,
+				484D2515202922CF006F8D48 /* Assets.xcassets in Resources */,
+				484D2518202922CF006F8D48 /* LaunchScreen.storyboard in Resources */,
+				484D250C202922CF006F8D48 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484D251C202922CF006F8D48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		484D2500202922CF006F8D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484D250E202922CF006F8D48 /* GameScene.swift in Sources */,
+				484D2510202922CF006F8D48 /* GameViewController.swift in Sources */,
+				484D2508202922CF006F8D48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484D251A202922CF006F8D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484D2523202922CF006F8D48 /* TicTac_EmojiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		484D2520202922CF006F8D48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 484D2503202922CF006F8D48 /* TicTac-Emoji */;
+			targetProxy = 484D251F202922CF006F8D48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		484D2511202922CF006F8D48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484D2512202922CF006F8D48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		484D2516202922CF006F8D48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484D2517202922CF006F8D48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		484D2525202922CF006F8D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		484D2526202922CF006F8D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		484D2528202922CF006F8D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRX89E7Z25;
+				INFOPLIST_FILE = "TicTac-Emoji/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tactastic.TicTac-Emoji";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		484D2529202922CF006F8D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRX89E7Z25;
+				INFOPLIST_FILE = "TicTac-Emoji/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tactastic.TicTac-Emoji";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		484D252B202922CF006F8D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRX89E7Z25;
+				INFOPLIST_FILE = "TicTac-EmojiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tactastic.TicTac-EmojiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTac-Emoji.app/TicTac-Emoji";
+			};
+			name = Debug;
+		};
+		484D252C202922CF006F8D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRX89E7Z25;
+				INFOPLIST_FILE = "TicTac-EmojiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tactastic.TicTac-EmojiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicTac-Emoji.app/TicTac-Emoji";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		484D24FF202922CF006F8D48 /* Build configuration list for PBXProject "TicTac-Emoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484D2525202922CF006F8D48 /* Debug */,
+				484D2526202922CF006F8D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484D2527202922CF006F8D48 /* Build configuration list for PBXNativeTarget "TicTac-Emoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484D2528202922CF006F8D48 /* Debug */,
+				484D2529202922CF006F8D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484D252A202922CF006F8D48 /* Build configuration list for PBXNativeTarget "TicTac-EmojiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484D252B202922CF006F8D48 /* Debug */,
+				484D252C202922CF006F8D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 484D24FC202922CF006F8D48 /* Project object */;
+}
